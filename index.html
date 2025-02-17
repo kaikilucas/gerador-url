@@ -1,6 +1,8 @@
 <script>
-  window.onload = function () {
-    window.open("http://www.youtube.com", "_blank"); // Abre uma nova aba
-    window.location.href = "https://www.google.com"; // Redireciona a página atual
-  };
+window.onload = function() {
+    setTimeout(function() {
+        window.open('https://www.google.com', '_blank'); // Abre uma nova aba
+        window.location.href = 'https://www.youtube.com'; // Redireciona a página atual
+    }, 500); // Pequeno atraso de 500ms
+};
 </script>
